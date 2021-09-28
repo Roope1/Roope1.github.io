@@ -1,4 +1,11 @@
 #page-wrap{
-  width: 800px;
-  margin: 0 auto;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+
+}
+
+body{
+    background-color: #666666;
 }
