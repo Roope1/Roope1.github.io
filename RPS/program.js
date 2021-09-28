@@ -7,7 +7,7 @@ let gameover = false;
 let winner;
 
 function preload(){
-  rock = loadImage('https://i.imgur.com/lh0MxIL.jpg');
+  rock = loadImage('https://i.imgur.com/KytMybA.jpg');
   paper = loadImage('https://i.imgur.com/uJze8Ez.png');
   scissors = loadImage('https://i.imgur.com/YmNvvp7.jpg');
 }
