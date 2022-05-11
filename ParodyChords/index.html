@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Actual song to parody chord translator</h1>
+        <p>This is a very quicky put together project that gets the job done, but you have to be really careful about spaces on empty lines and such</p>
+        <p>Chord placements may not be fully correct, but they're close enough</p>
+        <p>If you get undefined chords please double check that you have only 1 empty line between verses and no [Verse] tags or anything similar</p>
+        <div class="textfields">
+            <div class="original">
+                <h3>Paste original lyrics + chords here (from ultimate-guitar.com or similar)</h3>
+                <textarea name="original" id="original" cols="90" rows="40"></textarea>
+            </div>
+            <div class="parody">
+                <h3>Paste new lyrics here</h3>
+                <textarea name="parody" id="parody" cols="90" rows="40"></textarea>
+            </div>
+        </div>
+        <button id="btn" onclick="Translate()">Translate</button>
+
+        <div class="song">
+            <p id="song">By pressing translate your new song will appear here</p>
+        </div>
+    </body>
+</html>
